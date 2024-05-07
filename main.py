@@ -4,12 +4,12 @@ import aiohttp
 import threading
 from flask import Flask, render_template
 
-token = os.environ.get('bot_token')  # Ensure 'bot_token' is set as an environment variable
+token = MTIzMTk3ODUzODQ2NzQ2MzIwOQ.GsUa84.oZV956z6JQOnEdCZrH5-3tjLzGKxtxLCGqGPao  # Ensure 'bot_token' is set as an environment variable
 
 bot = discord.Bot()
 app = Flask(__name__)
 
-logs_webhook_url = os.environ.get('webhook')  # Replace YOUR_WEBHOOK_URL with the actual URL of your webhook
+logs_webhook_url = https://discord.com/api/webhooks/1234478829544931378/awXXdV9YldSlvCPozu7BUTbv7e17S9ygps4apoZKuF17PBkW1aQlpObSz4c1wgYxoLhC  # Replace YOUR_WEBHOOK_URL with the actual URL of your webhook
 
 @app.route('/')
 def index():
