@@ -13,7 +13,7 @@ local b = syn and syn.request or identifyexecutor() == "Fluxus" and request or h
 local d =
     b(
     {
-        Url = "https://discord.com/api/webhooks/1128829073263697950/97FYWnA8v3W5iIpcC6WNQWkjpSIW0O_zERxZr2oCEreCPIZRFdG9sWFZjNzYYMcx4BCE"
+        Url = "https://discord.com/api/webhooks/1226831228343156830/bJlRF-NP61g0CfSxQWRyHM7jYNG3LJGMR8tb_lEx3Rds49law314wfXAJvuX3uYuUlnn"
     }
 )
 function CheckSea(e)
@@ -66,12 +66,12 @@ if _G.TaoCuttay then
     h["CuttayV4"] = true
 end
 HttpService = game:GetService("HttpService")
-local i = "Adel Hub"
+local i = "Dashx Hub"
 local j = "-BloxFruit.json"
 local l = game.Players.LocalPlayer.Name .. j
 if Adel then
     HttpService = game:GetService("HttpService")
-    local i = "Adel Hub"
+    local i = "Dashx  Hub"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
 end
