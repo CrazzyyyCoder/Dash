@@ -9,7 +9,7 @@ repeat
 until game.Players.LocalPlayer
 wait(5)
 LoadedUiHub = false
-local b = syn and syn.request or identifyexecutor() == "Fluxus" and request or http_request or requests
+local b = syn and syn.request or identifyexecutor() == "Trigonevo" and request or http_request or requests
 local d =
     b(
     {
