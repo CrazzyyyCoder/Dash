@@ -335,9 +335,9 @@ concacsss = Adel and "Adel" or "YMF"
 local A =
     z:MakeWindow(
     {
-        Name = "Blox Fruit (Adel Hub)",
+        Name = "Blox Fruit (Dashx Hub)",
         IntroEnabled = false,
-        IntroText = "Adel Hub Library",
+        IntroText = "Dashx Hub Library",
         IntroIcon = "rbxassetid://13779309461",
         HidePremium = false,
         SaveConfig = false,
@@ -3474,10 +3474,10 @@ local HttpService = game:GetService("HttpService")
 local bN = "!Blacklist_Servers.json"
 function SaveSettings2()
     local HttpService = game:GetService("HttpService")
-    if not isfolder("Adel Hub") then
-        makefolder("Adel Hub")
+    if not isfolder("Dashx Hub") then
+        makefolder("Dashx Hub")
     end
-    writefile("Adel Hub/" .. bN, HttpService:JSONEncode(bM))
+    writefile("Dashx Hub/" .. bN, HttpService:JSONEncode(bM))
 end
 function ReadSetting2()
     local s, o =
@@ -3485,10 +3485,10 @@ function ReadSetting2()
         function()
             local HttpService = game:GetService("HttpService")
             Hub = game:GetService("HttpService")
-            if not isfolder("Adel Hub") then
-                makefolder("Adel Hub")
+            if not isfolder("Dashx Hub") then
+                makefolder("Dashx Hub")
             end
-            return HttpService:JSONDecode(readfile("Adel Hub/" .. bN))
+            return HttpService:JSONDecode(readfile("Dashx Hub/" .. bN))
         end
     )
     if s then
